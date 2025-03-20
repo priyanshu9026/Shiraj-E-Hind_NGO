@@ -24,8 +24,8 @@ const FeaturedCard = ({ raised, goal, title, img }) => {
       </div>
       <div class="feature-text">
         <div class="stats">
-          <p>Raised: ${raised}</p>
-          <p>Goal: ${goal}</p>
+          <p>Raised: Rs{raised}</p>
+          <p>Goal: Rs{goal}</p>
         </div>
         <div class="feature-heading">{title}</div>
         <button
